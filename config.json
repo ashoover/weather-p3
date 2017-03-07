@@ -1,0 +1,17 @@
+{
+    "apparence":
+    {
+        "theme": "dark",
+        "font": "Ubuntu Light",
+        "size": 12,
+        "color": "ffffff"
+    },
+    "app_settings":
+        {
+            "zip_code": 36575,
+            "api_key": "d000a5219252f67b060962430f2bc72c",
+            "temp_format": "f",
+            "api": "OW",
+            "verbose_to_console": "T"
+        }
+}
