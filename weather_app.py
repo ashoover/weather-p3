@@ -4,6 +4,7 @@ from tkinter import *
 from PIL import Image, ImageTk
 import requests
 import os
+import logging
 
 
 #api_key = 'd000a5219252f67b060962430f2bc72c'
@@ -13,6 +14,9 @@ refresh_time = 13  # minutes.
 return_temp = 'F'  # F/C
 time_format = 12  # 12/24 HR
 api_to_use = 'OWM'  # OWM = OpenWeatherMap
+log_file_name = 'log.txt'
+logging.basicConfig(filename=log_file_name, level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
+
 
 # API Key checker
 if api_key == '':
@@ -44,7 +48,7 @@ current_condition = json_data['weather'][0]['main']
 
 # API hit limiter
 if refresh_time < 15:
-    print('Timer set below 15 minute threshold.  Setting to 15 minutes (from the currently set ' + str(
+    logging.info('Timer set below 15 minute threshold.  Setting to 15 minutes (from the currently set ' + str(
         refresh_time) + ' minutes).')
     refresh_time = 15
 else:
@@ -66,7 +70,7 @@ if current_hour > 16:
 elif current_hour < 16:
     day_night_id = "night"
 else:
-    print("Day/Night ID is unable to pull the current time. Setting to DAY")
+    logging.error("Day/Night ID is unable to pull the current time. Setting to DAY")
     day_night_id = "day"
 
 

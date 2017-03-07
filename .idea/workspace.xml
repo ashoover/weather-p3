@@ -2,24 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7023f36b-f3e4-4104-8eb5-c4a6da793c21" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/cloud.png" afterPath="$PROJECT_DIR$/icons/cloud.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/cloudy.png" afterPath="$PROJECT_DIR$/icons/cloudy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/lightning.png" afterPath="$PROJECT_DIR$/icons/lightning.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/moon.png" afterPath="$PROJECT_DIR$/icons/moon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/nightcloudy.png" afterPath="$PROJECT_DIR$/icons/nightcloudy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/nightlightning.png" afterPath="$PROJECT_DIR$/icons/nightlightning.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/nightrain.png" afterPath="$PROJECT_DIR$/icons/nightrain.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/nightsnowing.png" afterPath="$PROJECT_DIR$/icons/nightsnowing.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/nightwind.png" afterPath="$PROJECT_DIR$/icons/nightwind.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/rain-3.png" afterPath="$PROJECT_DIR$/icons/rain-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/rain.png" afterPath="$PROJECT_DIR$/icons/rain.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/snow.png" afterPath="$PROJECT_DIR$/icons/snow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/snowing.png" afterPath="$PROJECT_DIR$/icons/snowing.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/storm.png" afterPath="$PROJECT_DIR$/icons/storm.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/sun.png" afterPath="$PROJECT_DIR$/icons/sun.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/thermometer.png" afterPath="$PROJECT_DIR$/icons/thermometer.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/wind-1.png" afterPath="$PROJECT_DIR$/icons/wind-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/windy.png" afterPath="$PROJECT_DIR$/icons/windy.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_app.py" afterPath="$PROJECT_DIR$/weather_app.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,14 +17,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="weather_app.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="weather_app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weather_app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="106" column="68" lean-forward="true" selection-start-line="106" selection-start-column="68" selection-end-line="106" selection-end-column="68" />
+            <state relative-caret-position="171">
+              <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="44" />
               <folding>
                 <element signature="e#10#21#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/log.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,6 +48,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/log.txt" />
         <option value="$PROJECT_DIR$/weather_app.py" />
       </list>
     </option>
@@ -318,11 +311,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/weather_app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="106" column="68" lean-forward="true" selection-start-line="106" selection-start-column="68" selection-end-line="106" selection-end-column="68" />
+        <state relative-caret-position="171">
+          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="44" />
           <folding>
             <element signature="e#10#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
