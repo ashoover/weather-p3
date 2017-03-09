@@ -1,2 +1,4 @@
-INFO:root:Timer set below 15 minute threshold.  Setting to 15 minutes (from the currently set 13 minutes).
-2017-03-07 02:31:22,152 INFO Timer set below 15 minute threshold.  Setting to 15 minutes (from the currently set 13 minutes).
+2017-03-08 18:51:32,114 ERROR Day/Night ID is unable to pull the current time. Setting to DAY
+2017-03-08 18:56:42,664 ERROR Day/Night ID is unable to pull the current time. Setting to DAY
+2017-03-08 18:58:23,146 ERROR Day/Night ID is unable to pull the current time. Setting to DAY
+2017-03-08 18:59:59,140 ERROR Day/Night ID is unable to pull the current time. Setting to DAY
