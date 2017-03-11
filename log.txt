@@ -1,4 +1,1 @@
-2017-03-08 18:51:32,114 ERROR Day/Night ID is unable to pull the current time. Setting to DAY
-2017-03-08 18:56:42,664 ERROR Day/Night ID is unable to pull the current time. Setting to DAY
-2017-03-08 18:58:23,146 ERROR Day/Night ID is unable to pull the current time. Setting to DAY
-2017-03-08 18:59:59,140 ERROR Day/Night ID is unable to pull the current time. Setting to DAY
+2017-03-10 20:59:21,970 ERROR No API Selected.

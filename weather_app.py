@@ -64,6 +64,7 @@ def weather_api_return(api_to_use, zip_code, geo_city, return_temp):
         current_temp = int(ds_json_data['currently']['temperature'])
         weather_return = {'location': location, 'current_temp': current_temp, 'current_condition': current_condition}
         return weather_return
+        logging.info('Using the DarkSky API')
 
 
     # Openweathermap.org
@@ -80,6 +81,7 @@ def weather_api_return(api_to_use, zip_code, geo_city, return_temp):
         current_temp = temp_conv(current_k_temp, return_temp)
         weather_return = {'location': location, 'current_temp': current_temp, 'current_condition': current_condition}
         return weather_return
+        logging.info('Using the OpenWeatherMap API')
 
     else:
         if api_to_use == '':
@@ -117,7 +119,7 @@ print(cw_condition)
 
 
 # Weather Image
-def weather_image_return(cw_condition):
+def weather_image_return(cw_condition: object) -> object:
     cwc = cw_condition.lower()
     if cwc.find("clouds") == 0 and day_night.find("night") == 0:
         weather_image = os.path.join('icons', 'nightcloudy.png')
@@ -159,28 +161,34 @@ def weather_image_return(cw_condition):
 temp = str(weather_return['current_temp'])
 location = str(weather_return['location'])
 
-weather_condition_image = weather_image_return(cw_condition.lower())
-wcondition_image = ImageTk.PhotoImage(Image.open(weather_condition_image))
+
 
 
 # GUI
 root = Tk()
 
-def main_gui():
-    root.wm_title("Instaweather 9000")
-    root.iconphoto(True, PhotoImage(file=os.path.join('icons', 'cloud.png')))
+#def main_gui():
 
-    current_temp = temp + '°'
+cw_condition1 = cw_condition.lower()
+weather_condition_image = weather_image_return(cw_condition1)
+print(weather_condition_image)
+wci = Image.open(weather_condition_image)
+wcondition_image = ImageTk.PhotoImage(wci)
 
-    w = Canvas(root, width=250, height=500, bd=0, highlightthickness=0)
-    w.pack()
-    w.config(bg='#444444')
-    w.create_text(125, 90, font=("Ubuntu Light", 48), text=current_temp, fill='#ffffff')
-    w.create_text(125, 135, font=("Ubuntu Light", 10), text=location, fill='#ffffff')
-    w.create_text(125, 175, font=("Ubuntu Light", 12), text=cw_condition, fill='#ffffff')
-    w.create_image(125, 300, image=wcondition_image)
+root.wm_title("Instaweather 9000")
+root.iconphoto(True, PhotoImage(file=os.path.join('icons', 'cloud.png')))
+
+current_temp = temp + '°'
+
+w = Canvas(root, width=250, height=500, bd=0, highlightthickness=0)
+w.pack()
+w.config(bg='#444444')
+w.create_text(125, 90, font=("Ubuntu Light", 48), text=current_temp, fill='#ffffff')
+w.create_text(125, 135, font=("Ubuntu Light", 10), text=location, fill='#ffffff')
+w.create_text(125, 175, font=("Ubuntu Light", 12), text=cw_condition, fill='#ffffff')
+w.create_image(125, 300, image=wcondition_image)
 
 
 # Main Calls
-main_gui()
+#main_gui()
 root.mainloop()
