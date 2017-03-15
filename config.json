@@ -10,8 +10,11 @@
         {
             "zip_code": 36575,
             "api_key": "d000a5219252f67b060962430f2bc72c",
-            "temp_format": "f",
-            "api": "OW",
-            "verbose_to_console": "T"
+            "api": "OWM",
+            "refresh_timer": 13,
+            "temp_format": "F",
+            "time_format": 12,
+            "log_file_name": "log.txt",
+            "logging_level": "logging.INFO"
         }
 }

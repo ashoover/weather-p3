@@ -5,15 +5,24 @@ from PIL import Image, ImageTk
 import requests
 import os
 import logging
+import json
 
 
-api_key = 'd000a5219252f67b060962430f2bc72c'    # if left blank, it will request an API key the user
-zip_code = '36575'  # if left blank, it will attempt to pull your zip code via ipinfo.io
-refresh_time = 13  # if less than 15 mins, it will change this value
-return_temp = 'F'  # F/C
-time_format = 12  # 12/24 HR
-api_to_use = 'OWM'  # OWM = OpenWeatherMap / DS = DarkSky / AW = AccuWeather / WU = WeatherUnderground
-log_file_name = 'log.txt'
+# Config File Import
+with open('config.json', encoding='utf-8') as config_file:
+    config = json.loads(config_file.read())
+
+api_key = config['app_settings']['api_key']
+zip_code = config['app_settings']['zip_code']
+refresh_timer = config['app_settings']['refresh_timer']
+return_temp = config['app_settings']['temp_format']
+time_format = config['app_settings']['time_format']
+api_to_use = config['app_settings']['api']
+log_file_name = config['app_settings']['log_file_name']
+logging_level = config['app_settings']['logging_level']
+
+
+# Setups
 logging.basicConfig(filename=log_file_name, level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
 weather_return = {}
 
@@ -71,7 +80,7 @@ def weather_api_return(api_to_use, zip_code, geo_city, return_temp):
     elif api_to_use == 'OWM':
         main_api = 'http://api.openweathermap.org/data/2.5/weather?zip='
         app_id = ',us&appid=' + api_key
-        address = zip_code
+        address = str(zip_code)
         url = main_api + address + app_id
 
         json_data = requests.get(url).json()
@@ -87,13 +96,13 @@ def weather_api_return(api_to_use, zip_code, geo_city, return_temp):
         if api_to_use == '':
             sys.exit(logging.error('No API Selected.'))
         else:
-            sys.exit(logging.error('API Error (incorrect key?).'))
+            sys.exit(logging.error('API Error.'))
 
 
 # Time & Date Stuff
 def day_night_id():
     current_hour = int(time.strftime("%H"))
-    if 6 >= current_hour < 19:
+    if current_hour >= 6 and current_hour < 19:
         day_night_id = "day"
     elif current_hour >= 19:
         day_night_id = "night"
@@ -113,48 +122,38 @@ def time_now(hr_format):
         return time.strftime("%H:%M")
 
 weather_return = weather_api_return(api_to_use, zip_code, geo_city, return_temp)
-print(weather_return)
+
 cw_condition = weather_return['current_condition']
-print(cw_condition)
 
 
 # Weather Image
-def weather_image_return(cw_condition: object) -> object:
+def weather_image_return(cw_condition):
     cwc = cw_condition.lower()
+
     if cwc.find("clouds") == 0 and day_night.find("night") == 0:
         weather_image = os.path.join('icons', 'nightcloudy.png')
-        return weather_image
     elif cwc.find("clouds") == 0 and day_night.find("day") == 0:
         weather_image = os.path.join('icons', 'cloudy.png')
-        return weather_image
     elif cwc.find("clear") == 0 and day_night.find("night") == 0:
         weather_image = os.path.join('icons', 'moon.png')
-        return weather_image
     elif cwc.find("clear") == 0 and day_night.find("day") == 0:
         weather_image = os.path.join('icons', 'sun.png')
-        return weather_image
     elif cwc.find("rain") == 0 and day_night.find("night") == 0:
         weather_image = os.path.join('icons', 'nightrain.png')
-        return weather_image
     elif cwc.find("rain") == 0 and day_night.find("day") == 0:
         weather_image = os.path.join('icons', 'rain.png')
-        return weather_image
     elif cwc.find("snow") == 0 and day_night.find("night") == 0:
         weather_image = os.path.join('icons', 'nightsnowing.png')
-        return weather_image
     elif cwc.find("snow") == 0 and day_night.find("day") == 0:
         weather_image = os.path.join('icons', 'snowing.png')
-        return weather_image
     elif cwc.find("mist") == 0 and day_night.find("night") == 0:
         weather_image = os.path.join('icons', 'nightwind.png')
-        return weather_image
     elif cwc.find("mist") == 0 and day_night.find("day") == 0:
         weather_image = os.path.join('icons', 'wind-1.png')
-        return weather_image
     else:
         logging.error("Weather Condition image for " + cwc + " not found.  Setting to default icon.")
         weather_image = os.path.join('icons', 'sun.png')
-        return weather_image
+    return weather_image
 
 
 # Testing/Junk Area
@@ -167,11 +166,8 @@ location = str(weather_return['location'])
 # GUI
 root = Tk()
 
-#def main_gui():
-
 cw_condition1 = cw_condition.lower()
 weather_condition_image = weather_image_return(cw_condition1)
-print(weather_condition_image)
 wci = Image.open(weather_condition_image)
 wcondition_image = ImageTk.PhotoImage(wci)
 
@@ -183,12 +179,11 @@ current_temp = temp + '°'
 w = Canvas(root, width=250, height=500, bd=0, highlightthickness=0)
 w.pack()
 w.config(bg='#444444')
-w.create_text(125, 90, font=("Ubuntu Light", 48), text=current_temp, fill='#ffffff')
+w.create_text(125, 75, font=("Ubuntu Light", 48), text=current_temp, fill='#ffffff')
 w.create_text(125, 135, font=("Ubuntu Light", 10), text=location, fill='#ffffff')
 w.create_text(125, 175, font=("Ubuntu Light", 12), text=cw_condition, fill='#ffffff')
-w.create_image(125, 300, image=wcondition_image)
+w.create_image(125, 335, image=wcondition_image)
 
 
 # Main Calls
-#main_gui()
 root.mainloop()
