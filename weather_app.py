@@ -124,6 +124,7 @@ def time_now(hr_format):
 weather_return = weather_api_return(api_to_use, zip_code, geo_city, return_temp)
 
 cw_condition = weather_return['current_condition']
+print(cw_condition)
 
 
 # Weather Image
