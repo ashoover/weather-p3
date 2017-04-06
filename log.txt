@@ -1,1 +1,6 @@
-2017-03-10 20:59:21,970 ERROR No API Selected.
+2017-04-06 08:37:29,967 INFO Logging Enabled.
+2017-04-06 08:37:45,222 INFO Logging Enabled.
+2017-04-06 08:37:47,602 INFO Logging Enabled.
+2017-04-06 08:37:50,003 INFO Logging Enabled.
+2017-04-06 08:37:57,561 INFO Logging Enabled.
+2017-04-06 08:41:36,898 INFO Logging Enabled.

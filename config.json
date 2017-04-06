@@ -1,11 +1,12 @@
 {
     "apparence":
-    {
-        "theme": "dark",
-        "font": "Ubuntu Light",
-        "size": 12,
-        "color": "ffffff"
-    },
+        {
+            "theme": "dark",
+            "font": "Ubuntu Light",
+            "bold_font": "Ubuntu Light",
+            "size": 12,
+            "color": "ffffff"
+        },
     "app_settings":
         {
             "zip_code": 36575,
