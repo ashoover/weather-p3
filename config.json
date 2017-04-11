@@ -1,17 +1,18 @@
 {
-    "apparence":
+    "appearance":
         {
             "theme": "dark",
-            "font": "Ubuntu Light",
-            "bold_font": "Ubuntu Light",
+            "font": "Verdana",
+            "bold_font": "Verdana Bold",
             "size": 12,
-            "color": "ffffff"
+            "bg_color": "gray27"
         },
     "app_settings":
         {
             "zip_code": 36575,
-            "api_key": "d000a5219252f67b060962430f2bc72c",
-            "api": "OWM",
+            "api_key": "d249a10c98c1d88126495cb255b22d53",
+            "owm_api_key": "d000a5219252f67b060962430f2bc72c",
+            "api": "DS",
             "refresh_timer": 13,
             "temp_format": "F",
             "time_format": 12,

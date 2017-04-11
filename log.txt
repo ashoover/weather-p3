@@ -4,3 +4,217 @@
 2017-04-06 08:37:50,003 INFO Logging Enabled.
 2017-04-06 08:37:57,561 INFO Logging Enabled.
 2017-04-06 08:41:36,898 INFO Logging Enabled.
+2017-04-06 08:49:47,887 INFO Logging Enabled.
+2017-04-06 22:03:53,920 INFO Logging Enabled.
+2017-04-06 22:16:10,583 INFO Logging Enabled.
+2017-04-06 22:16:11,447 INFO http://api.openweathermap.org/data/2.5/weather?zip=36575,us&appid=d000a5219252f67b060962430f2bc72c
+2017-04-07 11:07:25,784 INFO Logging Enabled.
+2017-04-07 11:07:26,649 INFO http://api.openweathermap.org/data/2.5/weather?zip=36575,us&appid=d000a5219252f67b060962430f2bc72c
+2017-04-07 13:44:48,487 INFO Logging Enabled.
+2017-04-07 13:45:11,480 INFO Logging Enabled.
+2017-04-07 13:45:40,453 INFO Logging Enabled.
+2017-04-07 13:45:41,108 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-07 13:46:41,687 INFO Logging Enabled.
+2017-04-07 13:46:42,248 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-07 13:47:32,154 INFO Logging Enabled.
+2017-04-07 13:47:33,194 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-07 13:50:20,084 INFO Logging Enabled.
+2017-04-07 13:50:20,903 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-07 13:54:07,125 INFO Logging Enabled.
+2017-04-07 13:54:07,125 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-07 13:54:07,715 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-07 14:56:23,762 INFO Logging Enabled.
+2017-04-07 14:56:23,762 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-07 14:56:24,700 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-07 22:03:03,562 INFO Logging Enabled.
+2017-04-07 22:03:03,574 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-07 22:03:04,023 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-08 03:01:13,840 INFO Logging Enabled.
+2017-04-08 03:01:13,840 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-08 03:01:14,197 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-08 19:56:16,151 INFO Logging Enabled.
+2017-04-08 19:56:16,162 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-08 19:56:16,869 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-08 19:58:53,130 INFO Logging Enabled.
+2017-04-08 19:58:53,130 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-08 19:58:53,820 ERROR API Error.
+2017-04-08 19:59:09,677 INFO Logging Enabled.
+2017-04-08 19:59:09,678 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-08 19:59:10,282 INFO http://api.openweathermap.org/data/2.5/weather?zip=36575,us&appid=d000a5219252f67b060962430f2bc72c
+2017-04-10 20:58:51,858 INFO Logging Enabled.
+2017-04-10 20:58:51,869 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 20:58:52,551 INFO http://api.openweathermap.org/data/2.5/weather?zip=36575,us&appid=d000a5219252f67b060962430f2bc72c
+2017-04-10 21:01:07,389 INFO Logging Enabled.
+2017-04-10 21:01:07,389 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:01:08,067 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:07:27,113 INFO Logging Enabled.
+2017-04-10 21:07:27,113 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:07:27,942 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:16:14,463 INFO Logging Enabled.
+2017-04-10 21:16:14,464 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:16:15,149 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:16:42,209 INFO Logging Enabled.
+2017-04-10 21:16:42,210 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:16:42,526 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:17:16,099 INFO Logging Enabled.
+2017-04-10 21:17:16,099 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:17:17,064 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:17:46,686 INFO Logging Enabled.
+2017-04-10 21:17:46,686 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:17:47,012 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:18:12,564 INFO Logging Enabled.
+2017-04-10 21:18:12,565 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:18:12,773 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:18:24,139 INFO Logging Enabled.
+2017-04-10 21:18:24,139 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:18:24,434 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:19:06,747 INFO Logging Enabled.
+2017-04-10 21:19:06,748 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:19:07,432 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:19:19,130 INFO Logging Enabled.
+2017-04-10 21:19:19,130 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:19:19,590 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:19:55,021 INFO Logging Enabled.
+2017-04-10 21:19:55,021 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:19:55,536 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:20:23,421 INFO Logging Enabled.
+2017-04-10 21:20:23,422 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:20:23,932 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:28:23,583 INFO Logging Enabled.
+2017-04-10 21:28:23,583 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:28:23,984 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:33:28,640 INFO Logging Enabled.
+2017-04-10 21:33:28,640 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:33:29,324 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:35:04,732 INFO Logging Enabled.
+2017-04-10 21:35:04,732 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:35:05,209 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:35:38,813 INFO Logging Enabled.
+2017-04-10 21:35:38,814 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:35:38,979 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:39:28,858 INFO Logging Enabled.
+2017-04-10 21:39:28,858 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:39:29,512 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:46:00,662 INFO Logging Enabled.
+2017-04-10 21:46:00,662 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:46:01,277 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:48:16,724 INFO Logging Enabled.
+2017-04-10 21:48:16,724 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:48:17,899 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:48:36,590 INFO Logging Enabled.
+2017-04-10 21:48:36,590 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:48:37,062 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:50:18,442 INFO Logging Enabled.
+2017-04-10 21:50:18,442 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:50:19,538 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:51:08,479 INFO Logging Enabled.
+2017-04-10 21:51:08,479 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:51:08,815 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:51:23,860 INFO Logging Enabled.
+2017-04-10 21:51:23,860 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:51:24,059 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:56:25,201 INFO Logging Enabled.
+2017-04-10 21:56:25,201 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:56:25,658 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:57:04,542 INFO Logging Enabled.
+2017-04-10 21:57:04,543 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:57:04,950 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:58:01,245 INFO Logging Enabled.
+2017-04-10 21:58:01,245 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:58:01,861 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 21:58:52,034 INFO Logging Enabled.
+2017-04-10 21:58:52,034 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 21:58:52,506 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:00:57,198 INFO Logging Enabled.
+2017-04-10 22:00:57,198 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:00:57,511 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:03:18,248 INFO Logging Enabled.
+2017-04-10 22:03:18,248 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:03:18,867 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:09:00,683 INFO Logging Enabled.
+2017-04-10 22:09:00,684 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:09:01,046 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:09:40,609 INFO Logging Enabled.
+2017-04-10 22:09:40,609 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:09:41,080 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:12:50,529 INFO Logging Enabled.
+2017-04-10 22:12:50,529 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:12:50,871 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:13:28,457 INFO Logging Enabled.
+2017-04-10 22:13:28,458 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:13:28,929 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:14:30,983 INFO Logging Enabled.
+2017-04-10 22:14:30,983 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:14:31,417 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:14:55,659 INFO Logging Enabled.
+2017-04-10 22:14:55,659 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:14:56,112 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:15:26,775 INFO Logging Enabled.
+2017-04-10 22:15:26,775 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:15:27,127 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:16:36,867 INFO Logging Enabled.
+2017-04-10 22:16:36,867 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:16:37,225 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:17:11,318 INFO Logging Enabled.
+2017-04-10 22:17:11,319 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:17:11,456 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:17:53,322 INFO Logging Enabled.
+2017-04-10 22:17:53,322 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:17:53,680 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:25:52,111 INFO Logging Enabled.
+2017-04-10 22:25:52,111 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:25:52,423 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:26:43,775 INFO Logging Enabled.
+2017-04-10 22:26:43,776 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:26:44,138 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:27:28,255 INFO Logging Enabled.
+2017-04-10 22:27:28,255 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:27:28,466 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:29:41,663 INFO Logging Enabled.
+2017-04-10 22:29:41,663 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:29:42,168 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:30:46,083 INFO Logging Enabled.
+2017-04-10 22:30:46,083 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:30:46,758 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:32:45,836 INFO Logging Enabled.
+2017-04-10 22:32:45,836 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:32:46,585 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:33:42,239 INFO Logging Enabled.
+2017-04-10 22:33:42,239 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:33:42,558 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:40:54,349 INFO Logging Enabled.
+2017-04-10 22:40:54,349 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:40:54,705 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:41:31,289 INFO Logging Enabled.
+2017-04-10 22:41:31,289 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:41:31,615 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:42:08,648 INFO Logging Enabled.
+2017-04-10 22:42:08,648 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:42:09,219 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:42:20,244 INFO Logging Enabled.
+2017-04-10 22:42:20,245 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:42:20,533 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:43:05,031 INFO Logging Enabled.
+2017-04-10 22:43:05,032 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:43:05,502 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:43:19,489 INFO Logging Enabled.
+2017-04-10 22:43:19,489 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:43:19,803 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:43:28,598 INFO Logging Enabled.
+2017-04-10 22:43:28,598 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:43:28,948 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:43:42,723 INFO Logging Enabled.
+2017-04-10 22:43:42,724 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:43:43,052 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:44:24,109 INFO Logging Enabled.
+2017-04-10 22:44:24,109 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:44:24,580 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:44:33,549 INFO Logging Enabled.
+2017-04-10 22:44:33,549 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:44:34,055 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:45:48,589 INFO Logging Enabled.
+2017-04-10 22:45:48,589 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:45:49,273 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
+2017-04-10 22:54:53,045 INFO Logging Enabled.
+2017-04-10 22:54:53,045 INFO Refresh time set below 15 minute limit.  Setting to 15 minutes.
+2017-04-10 22:54:53,333 INFO https://api.darksky.net/forecast/d249a10c98c1d88126495cb255b22d53/30.7564,-88.2723
