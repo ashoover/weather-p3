@@ -26,8 +26,8 @@ logging_level = config["app_settings"]["logging_level"]
 regular_font = config["appearance"]["font"]
 bold_font = config["appearance"]["bold_font"]
 background_color =  config["appearance"]["bg_color"]
+last_checked_notif = config["appearance"]["last_checked_notif"]
 bg_color  = background_color
-
 
 
 # Setups
@@ -38,11 +38,12 @@ weather_return = {}
 
 
 # Refresh timer limit
-if int(refresh_timer) < 15:
+if int(refresh_timer) < 14:
     refresh_timer = 15
     logging.info("Refresh time set below 15 minute limit.  Setting to 15 minutes.")
 else:
     pass
+
 
 # Geolocation -> zip
 geo_url = "http://ipinfo.io/json"
@@ -52,17 +53,10 @@ geo_loc = geo_json_data["loc"]
 geo_city = geo_json_data["city"]
 
 
-# API Key checker
-"""
-if api_key == "":
-    api_key = input("Please enter an API key: ")
-else:
-    pass
-"""
-
 # ZIP code getter
 if zip_code == "":
     zip_code = geo_zip
+    logging.info('No ZIP code found in the config.  Using ' + zip_code)
 else:
     pass
 
@@ -114,9 +108,9 @@ def weather_api_return(api_to_use, zip_code, geo_city, return_temp):
 
     else:
         if api_to_use == "":
-            sys.exit(logging.error("No API Selected."))
+            sys.exit(logging.error('No API selected.'))
         else:
-            sys.exit(logging.error("API Error."))
+            sys.exit(logging.error('No API "' + api_to_use + '" found.'))
 
 
 # Time & Date Stuff
@@ -127,7 +121,8 @@ def day_night_id():
     elif current_hour >= 19 or current_hour < 6:
         day_night_id = "night"
     else:
-        day_night_id = "I dunno."
+        day_night_id = "day"
+        logging.ERROR('Day/Night ID not detected.')
     return day_night_id
 
 day_night = day_night_id()
@@ -141,13 +136,13 @@ def time_now(hr_format):
     else:
         return time.strftime("%H:%M")
 
-weather_return1 = weather_api_return(api_to_use, zip_code, geo_city, return_temp)
-
-cw_condition = weather_return1["current_condition"]
-print(cw_condition)
+time_right_meow = time_now(time_format)
 
 
 # Weather Image
+weather_return1 = weather_api_return(api_to_use, zip_code, geo_city, return_temp)
+cw_condition = weather_return1["current_condition"]
+
 def weather_image_return(cw_condition):
     cwc = cw_condition.lower()
     if op_sys != "posix":
@@ -189,7 +184,6 @@ def weather_image_return(cw_condition):
 # Testing/Junk Area
 temp = str(weather_return1["current_temp"])
 location = str(weather_return1["location"])
-print(day_night)
 
 
 # GUI Setups
@@ -201,6 +195,14 @@ weather_condition_image = weather_image_return(cw_condition1)
 wci = Image.open(weather_condition_image)
 wcondition_image = ImageTk.PhotoImage(wci)
 current_temp = temp + "°"
+
+# Last Checked Notification
+def last_checked():
+    if last_checked_notif:
+        checked_time = "Last checked at " + time_right_meow
+        w.create_text(125, 460, font=(regular_font, 7), text=checked_time, fill="#ffffff")
+    else:
+        pass
 
 
 # Config Page
@@ -267,7 +269,7 @@ root.wm_title("Instaweather 9000.1")
 if op_sys == "Windows" or op_sys == "Linux":
     root.iconphoto(True, PhotoImage(file=os.path.join("icons", "cloud.png")))
 else:
-    pass #(doesn"t set an app icon for OSX)
+    pass #(doesn't set an app icon for OSX)
 
 w = Canvas(root, width=250, height=500, bd=0, highlightthickness=0)
 root.resizable(width=False, height=False)
@@ -281,6 +283,7 @@ w.create_text(125, 335, font=(bold_font, 48), text=current_temp, fill="#ffffff")
 w.create_text(125, 377, font=(regular_font, 14), text=location, fill="#ffffff")
 w.create_text(125, 405, font=(regular_font, 18), text=cw_condition, fill="#ffffff")
 w.pack()
+last_checked()
 config_button.pack(side=RIGHT, fill=X, expand=True)
 
 
