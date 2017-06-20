@@ -5,7 +5,7 @@
             "font": "Verdana",
             "bold_font": "Verdana Bold",
             "bg_color": "gray27",
-            "last_checked_notif": ""
+            "last_checked_notif": "True"
         },
     "app_settings":
         {
@@ -17,6 +17,12 @@
             "temp_format": "F",
             "time_format": 12,
             "log_file_name": "log.txt",
-            "logging_level": "logging.INFO"
+            "logging_level": "logging.INFO",
+            "app_level": "G"
+        },
+    "data":
+        {
+            "offline_mode" : "False",
+            "database_name" : "weather_app.db"
         }
 }
