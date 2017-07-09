@@ -8,6 +8,7 @@ import os
 import logging
 import json
 import platform
+from types import *
 
 
 # Config File Import
@@ -25,7 +26,7 @@ log_file_name = config["app_settings"]["log_file_name"]
 logging_level = config["app_settings"]["logging_level"]
 regular_font = config["appearance"]["font"]
 bold_font = config["appearance"]["bold_font"]
-background_color =  config["appearance"]["bg_color"]
+background_color = config["appearance"]["bg_color"]
 last_checked_notif = config["appearance"]["last_checked_notif"]
 offline_mode = config["data"]["offline_mode"]
 bg_color = background_color
@@ -290,7 +291,7 @@ if app_lvl == "G":
     w.pack()
     last_checked()
     config_button.pack(side=RIGHT, fill=X, expand=True)
-    
+
     # Main Calls
     root.mainloop()
 
@@ -299,13 +300,31 @@ elif app_lvl == "C":
         # Console Version
         console_weather = current_temp + "F in " + location + " and " + cw_condition + '.'
 
-        print("")
-        print("===== Current Weather =====")
-        print("")
-        print(console_weather)
-        print("")
-        print("===========================")
-        print("")
+        lcn = eval(last_checked_notif)
+        
+        def last_checked(lcn):
+            if lcn == 'True':
+                return("Last checked at " + time_right_meow + "\n")
+            else:
+                return("")
+            
+        def blah():                
+            print("")
+            print("===== Current Weather =====")
+            print("")
+            print(console_weather)
+            print(last_checked(last_checked_notif))
+            print("===========================")
+            print("")
+        
+        while True:
+            if os.name == 'nt':
+                os.system('cls')
+            else:
+                os.system('clear')
+                
+            blah()
+            time.sleep(15)
 
     console_app()
 

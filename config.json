@@ -18,7 +18,7 @@
             "time_format": 12,
             "log_file_name": "log.txt",
             "logging_level": "logging.INFO",
-            "app_level": "G"
+            "app_level": "C"
         },
     "data":
         {

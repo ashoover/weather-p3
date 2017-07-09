@@ -1,4 +1,6 @@
-weather-p3
+Python 3 Weather App
+
+Small weather app for the terminal or desktop.  Just a personal project of mine.
 
 
 config.json --
@@ -31,3 +33,9 @@ config.json --
             "database_name" : "weather_app.db"
         }
 }
+
+
+
+Credits --
+
+icons - Flaticon.com
