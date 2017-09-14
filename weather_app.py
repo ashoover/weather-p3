@@ -308,7 +308,7 @@ elif app_lvl == "C":
             else:
                 return("")
             
-        def blah():                
+        def console_post():                
             print("")
             print("===== Current Weather =====")
             print("")
@@ -316,14 +316,18 @@ elif app_lvl == "C":
             print(last_checked(last_checked_notif))
             print("===========================")
             print("")
-        
+            current_temp = None
+            cw_condition = None
+            time_right_meow = None
+
+# Running the app        
         while True:
             if os.name == 'nt':
                 os.system('cls')
             else:
                 os.system('clear')
                 
-            blah()
+            console_post()
             time.sleep(15)
 
     console_app()
